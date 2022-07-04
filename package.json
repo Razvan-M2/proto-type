@@ -1,0 +1,27 @@
+{
+  "name": "proto-type",
+  "version": "0.0.1",
+  "description": "A small Node.JS/Express Typescript App for testing out integrations to various technologies",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts",
+    "lint": "eslint . --fix"
+  },
+  "repository": "https://github.com/Razvan-M2/proto-type.git",
+  "author": "Razvan-M2 <razvan98marc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "ts-node": "^10.8.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.2"
+  }
+}
